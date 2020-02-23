@@ -52,7 +52,7 @@ class Home extends Component<IHomeProps> {
         <Layout>
           <Row>
             {this.props.movies.map(movie => (
-              <Col xs={12} sm={6} lg={4} xl={3} key={movie.id}>
+              <Col xs={12} sm={4} md={3} xl={2} key={movie.id}>
                 <Thumb
                   title={movie.title}
                   imageSrc={`${imageSrcRootUrl}${movie.poster_path}`}

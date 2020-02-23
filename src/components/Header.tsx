@@ -27,6 +27,12 @@ export const Header: React.FC = () => (
         line-height: 0;
         letter-spacing: 1px;
       }
+      @media screen and (max-width: 576px) {
+        .logo {
+          margin: 2em 0 0;
+          flex-direction: column;
+        }
+      }
     `}</style>
   </Fragment>
 );

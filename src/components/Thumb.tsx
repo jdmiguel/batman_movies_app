@@ -19,7 +19,7 @@ const Thumb: React.FC<IThumbProps> = ({ title, imageSrc }) => (
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 3em 0;
+        padding: 2em 0;
         background: #efefef;
         margin-bottom: 2em;
         box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -30,11 +30,17 @@ const Thumb: React.FC<IThumbProps> = ({ title, imageSrc }) => (
       img {
         box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.55);
         margin-bottom: 2em;
+        max-width: 90%;
+      }
+      @media screen and (max-width: 576px) {
+        img {
+          width: 65%;
+        }
       }
       h2 {
         color: #242424;
-        margin: 0 0 0.4em 0;
-        font-size: 1.7em;
+        margin: 0 0 0.1em 0;
+        font-size: 1.5em;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;

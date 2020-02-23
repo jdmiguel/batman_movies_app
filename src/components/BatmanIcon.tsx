@@ -20,9 +20,12 @@ const BatmanIcon = () => (
       .batman-icon {
         width: 200px;
       }
-      @media screen and (max-width: 500px) {
+      @media screen and (max-width: 576px) {
         .batman-icon {
           width: 150px;
+          height: 100px;
+          margin: 0.2em 0 0;
+}
         }
       }
     `}</style>
