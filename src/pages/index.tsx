@@ -22,13 +22,14 @@ interface IHomeProps {
 class Home extends Component<IHomeProps> {
   static async getInitialProps() {
     const res = await fetch(
-      "https://api.themoviedb.org/3/search/movie?api_key=5d77a3a4cf8ca6ff499952f4eda298d9&query=batman"
+      "https://api.themoviedb.org/3/search/movie?api_key=5d77a3a4cf8ca6ff499952f4eda298d9&query=batman&page=1"
     );
     const data = await res.json();
 
-    console.log(`Show data fetched. Count: ${data.results.length}`);
+    //console.log(`Show data fetched. Count: ${data.results.length}`);
 
     return {
+      page: 1,
       movies: data.results
     };
   }
@@ -54,6 +55,7 @@ class Home extends Component<IHomeProps> {
             {this.props.movies.map(movie => (
               <Col xs={12} sm={4} md={3} xl={2} key={movie.id}>
                 <Thumb
+                  id={movie.id}
                   title={movie.title}
                   imageSrc={`${imageSrcRootUrl}${movie.poster_path}`}
                 />

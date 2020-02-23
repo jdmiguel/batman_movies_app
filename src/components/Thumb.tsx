@@ -2,15 +2,16 @@ import React from "react";
 import Link from "next/link";
 
 interface IThumbProps {
+  id: number;
   title: string;
   imageSrc: string;
 }
 
-const Thumb: React.FC<IThumbProps> = ({ title, imageSrc }) => (
+const Thumb: React.FC<IThumbProps> = ({ id, title, imageSrc }) => (
   <div>
     <img src={imageSrc} />
     <h2>{title}</h2>
-    <Link href="">
+    <Link href="/detail/[id]" as={`/detail/${id}`}>
       <a>Show detail</a>
     </Link>
     <style jsx>{`
