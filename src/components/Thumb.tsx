@@ -1,4 +1,5 @@
-import React, { Fragment } from "react";
+import React from "react";
+import Link from "next/link";
 
 interface IThumbProps {
   title: string;
@@ -9,7 +10,9 @@ const Thumb: React.FC<IThumbProps> = ({ title, imageSrc }) => (
   <div>
     <img src={imageSrc} />
     <h2>{title}</h2>
-    <span>view detail</span>
+    <Link href="">
+      <a>Show detail</a>
+    </Link>
     <style jsx>{`
       div {
         display: flex;
@@ -30,7 +33,7 @@ const Thumb: React.FC<IThumbProps> = ({ title, imageSrc }) => (
       }
       h2 {
         color: #242424;
-        margin: 0;
+        margin: 0 0 0.4em 0;
         font-size: 1.7em;
         white-space: nowrap;
         overflow: hidden;
@@ -38,7 +41,20 @@ const Thumb: React.FC<IThumbProps> = ({ title, imageSrc }) => (
         max-width: 90%;
         text-align: center;
       }
-      span {
+      a {
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #727272;
+        text-decoration: none;
+        padding: 0.5em;
+        border-radius: 0.2em;
+        transition: all 0.35s linear;
+        font-weight: 600;
+      }
+      a:hover {
+        font-size: 1em;
+        color: #242424;
+        background: #e0e0e0;
       }
     `}</style>
   </div>

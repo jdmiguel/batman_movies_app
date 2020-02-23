@@ -15,7 +15,7 @@ const Layout: React.FC<ILayoutProps> = ({ children }) => (
         padding: 0;
         font-family: "Open Sans";
         font-size: 15px;
-        background: #c5c4c4;
+        background: #c8c8c8;
         overflow-x: hidden;
       }
       .content {

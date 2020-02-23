@@ -26,7 +26,6 @@ export const Header: React.FC = () => (
         font-size: 1.8em;
         line-height: 0;
         letter-spacing: 1px;
-        font-weight: 700;
       }
     `}</style>
   </Fragment>

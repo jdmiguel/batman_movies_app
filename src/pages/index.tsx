@@ -44,7 +44,7 @@ class Home extends Component<IHomeProps> {
             content="Web site created using create-react-app"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+            href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
             rel="stylesheet"
           />
           ><title>Batman movies</title>
