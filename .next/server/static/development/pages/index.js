@@ -246,10 +246,17 @@ const Layout = ({
     lineNumber: 10
   },
   __self: undefined
-}), children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "3579281063",
+}), __jsx("div", {
+  className: "jsx-249573175" + " " + "content",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
   __self: undefined
-}, "body{margin:0;padding:0;font-family:\"Libre Baskerville, serif\";font-size:15px;background:#c5c4c4;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvTGF5b3V0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFXdUIsQUFHa0IsU0FDQyxVQUM2Qix1Q0FDeEIsZUFDSSxtQkFDckIiLCJmaWxlIjoiL2hvbWUvamRtaWd1ZWwvRGVza3RvcC9wcm9qZWN0cy9iYXRtYW5fbW92aWVzX2FwcC9zcmMvY29tcG9uZW50cy9MYXlvdXQudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgSGVhZGVyIGZyb20gXCIuL0hlYWRlclwiO1xuXG5pbnRlcmZhY2UgSUxheW91dFByb3BzIHtcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0RWxlbWVudCB8IEFycmF5PFJlYWN0LlJlYWN0RWxlbWVudD47XG59XG5cbmNvbnN0IExheW91dDogUmVhY3QuRkM8SUxheW91dFByb3BzPiA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPEZyYWdtZW50PlxuICAgIDxIZWFkZXIgLz5cbiAgICB7Y2hpbGRyZW59XG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIGJvZHkge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGZvbnQtZmFtaWx5OiBcIkxpYnJlIEJhc2tlcnZpbGxlLCBzZXJpZlwiO1xuICAgICAgICBmb250LXNpemU6IDE1cHg7XG4gICAgICAgIGJhY2tncm91bmQ6ICNjNWM0YzQ7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L0ZyYWdtZW50PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Layout.tsx */"));
+}, children), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "249573175",
+  __self: undefined
+}, "body{margin:0;padding:0;font-family:\"Open Sans\";font-size:15px;background:#c5c4c4;overflow-x:hidden;}.content{padding:3em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvTGF5b3V0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFXdUIsQUFHa0IsQUFRRyxTQVBGLEdBUVosT0FQMEIsd0JBQ1QsZUFDSSxtQkFDRCxrQkFDcEIiLCJmaWxlIjoiL2hvbWUvamRtaWd1ZWwvRGVza3RvcC9wcm9qZWN0cy9iYXRtYW5fbW92aWVzX2FwcC9zcmMvY29tcG9uZW50cy9MYXlvdXQudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgSGVhZGVyIGZyb20gXCIuL0hlYWRlclwiO1xuXG5pbnRlcmZhY2UgSUxheW91dFByb3BzIHtcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0RWxlbWVudCB8IEFycmF5PFJlYWN0LlJlYWN0RWxlbWVudD47XG59XG5cbmNvbnN0IExheW91dDogUmVhY3QuRkM8SUxheW91dFByb3BzPiA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPEZyYWdtZW50PlxuICAgIDxIZWFkZXIgLz5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRlbnRcIj57Y2hpbGRyZW59PC9kaXY+XG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIGJvZHkge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGZvbnQtZmFtaWx5OiBcIk9wZW4gU2Fuc1wiO1xuICAgICAgICBmb250LXNpemU6IDE1cHg7XG4gICAgICAgIGJhY2tncm91bmQ6ICNjNWM0YzQ7XG4gICAgICAgIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgICAgIH1cbiAgICAgIC5jb250ZW50IHtcbiAgICAgICAgcGFkZGluZzogM2VtO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9GcmFnbWVudD5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDtcbiJdfQ== */\n/*@ sourceURL=/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Layout.tsx */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -264,23 +271,51 @@ const Layout = ({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Thumb.tsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 const Thumb = ({
-  title
-}) => {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: undefined
-  }, title);
-};
+  title,
+  imageSrc
+}) => __jsx("div", {
+  className: "jsx-3070112094",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: imageSrc,
+  className: "jsx-3070112094",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}), __jsx("h2", {
+  className: "jsx-3070112094",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, title), __jsx("span", {
+  className: "jsx-3070112094",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "view detail"), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "3070112094",
+  __self: undefined
+}, "div.jsx-3070112094{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:3em 0;background:#efefef;margin-bottom:2em;box-shadow:0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);border-radius:0.5em;}img.jsx-3070112094{box-shadow:1px 1px 7px 0px rgba(0,0,0,0.55);margin-bottom:2em;}h2.jsx-3070112094{color:#242424;margin:0;font-size:1.7em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:90%;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvVGh1bWIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVlnQixBQUdzQixBQWFrQyxBQUlqQyxjQUNMLFNBQ08sZ0JBQ0csS0FORCxjQU9GLElBTmxCLFlBZHlCLEFBcUJBLHVCQUNULGNBQ0ksa0JBQ3BCLDRDQXZCcUIsNkZBQ0csOEVBQ1IsY0FDSyxtQkFDRCxrQkFHbUIsZ0hBQ2pCLG9CQUN0QiIsImZpbGUiOiIvaG9tZS9qZG1pZ3VlbC9EZXNrdG9wL3Byb2plY3RzL2JhdG1hbl9tb3ZpZXNfYXBwL3NyYy9jb21wb25lbnRzL1RodW1iLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBGcmFnbWVudCB9IGZyb20gXCJyZWFjdFwiO1xuXG5pbnRlcmZhY2UgSVRodW1iUHJvcHMge1xuICB0aXRsZTogc3RyaW5nO1xuICBpbWFnZVNyYzogc3RyaW5nO1xufVxuXG5jb25zdCBUaHVtYjogUmVhY3QuRkM8SVRodW1iUHJvcHM+ID0gKHsgdGl0bGUsIGltYWdlU3JjIH0pID0+IChcbiAgPGRpdj5cbiAgICA8aW1nIHNyYz17aW1hZ2VTcmN9IC8+XG4gICAgPGgyPnt0aXRsZX08L2gyPlxuICAgIDxzcGFuPnZpZXcgZGV0YWlsPC9zcGFuPlxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIGRpdiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICBwYWRkaW5nOiAzZW0gMDtcbiAgICAgICAgYmFja2dyb3VuZDogI2VmZWZlZjtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMmVtO1xuICAgICAgICBib3gtc2hhZG93OiAwcHggMnB4IDFweCAtMXB4IHJnYmEoMCwgMCwgMCwgMC4yKSxcbiAgICAgICAgICAwcHggMXB4IDFweCAwcHggcmdiYSgwLCAwLCAwLCAwLjE0KSxcbiAgICAgICAgICAwcHggMXB4IDNweCAwcHggcmdiYSgwLCAwLCAwLCAwLjEyKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMC41ZW07XG4gICAgICB9XG4gICAgICBpbWcge1xuICAgICAgICBib3gtc2hhZG93OiAxcHggMXB4IDdweCAwcHggcmdiYSgwLCAwLCAwLCAwLjU1KTtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMmVtO1xuICAgICAgfVxuICAgICAgaDIge1xuICAgICAgICBjb2xvcjogIzI0MjQyNDtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBmb250LXNpemU6IDEuN2VtO1xuICAgICAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xuICAgICAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgICAgICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcbiAgICAgICAgbWF4LXdpZHRoOiA5MCU7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgIH1cbiAgICAgIHNwYW4ge1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBUaHVtYjtcbiJdfQ== */\n/*@ sourceURL=/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Thumb.tsx */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Thumb);
 
@@ -303,6 +338,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.tsx");
 /* harmony import */ var _components_Thumb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Thumb */ "./src/components/Thumb.tsx");
+/* harmony import */ var react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-configurable-grid */ "react-configurable-grid");
+/* harmony import */ var react_configurable_grid__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -310,6 +347,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
+const imageSrcRootUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/";
 
 class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   static async getInitialProps() {
@@ -325,13 +364,13 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33
+        lineNumber: 38
       },
       __self: this
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 39
       },
       __self: this
     }, __jsx("meta", {
@@ -339,7 +378,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "width=device-width, initial-scale=1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
+        lineNumber: 40
       },
       __self: this
     }), __jsx("meta", {
@@ -347,7 +386,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "#242424",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
+        lineNumber: 41
       },
       __self: this
     }), __jsx("meta", {
@@ -355,38 +394,55 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "Web site created using create-react-app",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 42
       },
       __self: this
     }), __jsx("link", {
-      href: "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap",
+      href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap",
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 46
       },
       __self: this
-    }), __jsx("title", {
+    }), ">", __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 50
       },
       __self: this
     }, "Batman movies")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 52
       },
       __self: this
-    }, this.props.movies.map(movie => __jsx(_components_Thumb__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      key: movie.id,
-      title: movie.title,
+    }, __jsx(react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__["Row"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 53
       },
       __self: this
-    }))));
+    }, this.props.movies.map(movie => __jsx(react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+      xs: 12,
+      sm: 6,
+      lg: 4,
+      xl: 3,
+      key: movie.id,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55
+      },
+      __self: this
+    }, __jsx(_components_Thumb__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      title: movie.title,
+      imageSrc: `${imageSrcRootUrl}${movie.poster_path}`,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56
+      },
+      __self: this
+    }))))));
   }
 
 }
@@ -437,6 +493,17 @@ module.exports = require("next/head");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-configurable-grid":
+/*!******************************************!*\
+  !*** external "react-configurable-grid" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-configurable-grid");
 
 /***/ }),
 

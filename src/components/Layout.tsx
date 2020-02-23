@@ -8,14 +8,18 @@ interface ILayoutProps {
 const Layout: React.FC<ILayoutProps> = ({ children }) => (
   <Fragment>
     <Header />
-    {children}
+    <div className="content">{children}</div>
     <style jsx global>{`
       body {
         margin: 0;
         padding: 0;
-        font-family: "Libre Baskerville, serif";
+        font-family: "Open Sans";
         font-size: 15px;
         background: #c5c4c4;
+        overflow-x: hidden;
+      }
+      .content {
+        padding: 3em;
       }
     `}</style>
   </Fragment>

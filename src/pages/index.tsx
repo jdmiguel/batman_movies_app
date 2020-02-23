@@ -6,9 +6,14 @@ import fetch from "isomorphic-unfetch";
 import Layout from "../components/Layout";
 import Thumb from "../components/Thumb";
 
+import { Row, Col } from "react-configurable-grid";
+
+const imageSrcRootUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/";
+
 interface movie {
   id: number;
   title: string;
+  poster_path: string;
 }
 interface IHomeProps {
   movies: Array<movie>;
@@ -39,15 +44,22 @@ class Home extends Component<IHomeProps> {
             content="Web site created using create-react-app"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap"
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
             rel="stylesheet"
           />
-          <title>Batman movies</title>
+          ><title>Batman movies</title>
         </Head>
         <Layout>
-          {this.props.movies.map(movie => (
-            <Thumb key={movie.id} title={movie.title} />
-          ))}
+          <Row>
+            {this.props.movies.map(movie => (
+              <Col xs={12} sm={6} lg={4} xl={3} key={movie.id}>
+                <Thumb
+                  title={movie.title}
+                  imageSrc={`${imageSrcRootUrl}${movie.poster_path}`}
+                />
+              </Col>
+            ))}
+          </Row>
         </Layout>
       </Fragment>
     );
