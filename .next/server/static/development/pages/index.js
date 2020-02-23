@@ -237,21 +237,52 @@ const Layout = ({
 }) => __jsx(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 9
   },
   __self: undefined
 }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 10
   },
   __self: undefined
 }), children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
   id: "3579281063",
   __self: undefined
-}, "body{margin:0;padding:0;font-family:\"Libre Baskerville, serif\";font-size:15px;background:#c5c4c4;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvTGF5b3V0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTdUIsQUFHa0IsU0FDQyxVQUM2Qix1Q0FDeEIsZUFDSSxtQkFDckIiLCJmaWxlIjoiL2hvbWUvamRtaWd1ZWwvRGVza3RvcC9wcm9qZWN0cy9iYXRtYW5fbW92aWVzX2FwcC9zcmMvY29tcG9uZW50cy9MYXlvdXQudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgSGVhZGVyIGZyb20gXCIuL0hlYWRlclwiO1xuXG5pbnRlcmZhY2UgSUxheW91dFByb3BzIHt9XG5cbmNvbnN0IExheW91dDogUmVhY3QuRkM8SUxheW91dFByb3BzPiA9ICh7IGNoaWxkcmVuIH0pOiBSZWFjdC5SZWFjdEVsZW1lbnQgPT4gKFxuICA8RnJhZ21lbnQ+XG4gICAgPEhlYWRlciAvPlxuICAgIHtjaGlsZHJlbn1cbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgYm9keSB7XG4gICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgZm9udC1mYW1pbHk6IFwiTGlicmUgQmFza2VydmlsbGUsIHNlcmlmXCI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTVweDtcbiAgICAgICAgYmFja2dyb3VuZDogI2M1YzRjNDtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvRnJhZ21lbnQ+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7XG4iXX0= */\n/*@ sourceURL=/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Layout.tsx */"));
+}, "body{margin:0;padding:0;font-family:\"Libre Baskerville, serif\";font-size:15px;background:#c5c4c4;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvTGF5b3V0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFXdUIsQUFHa0IsU0FDQyxVQUM2Qix1Q0FDeEIsZUFDSSxtQkFDckIiLCJmaWxlIjoiL2hvbWUvamRtaWd1ZWwvRGVza3RvcC9wcm9qZWN0cy9iYXRtYW5fbW92aWVzX2FwcC9zcmMvY29tcG9uZW50cy9MYXlvdXQudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgSGVhZGVyIGZyb20gXCIuL0hlYWRlclwiO1xuXG5pbnRlcmZhY2UgSUxheW91dFByb3BzIHtcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0RWxlbWVudCB8IEFycmF5PFJlYWN0LlJlYWN0RWxlbWVudD47XG59XG5cbmNvbnN0IExheW91dDogUmVhY3QuRkM8SUxheW91dFByb3BzPiA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPEZyYWdtZW50PlxuICAgIDxIZWFkZXIgLz5cbiAgICB7Y2hpbGRyZW59XG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIGJvZHkge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGZvbnQtZmFtaWx5OiBcIkxpYnJlIEJhc2tlcnZpbGxlLCBzZXJpZlwiO1xuICAgICAgICBmb250LXNpemU6IDE1cHg7XG4gICAgICAgIGJhY2tncm91bmQ6ICNjNWM0YzQ7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L0ZyYWdtZW50PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Layout.tsx */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./src/components/Thumb.tsx":
+/*!**********************************!*\
+  !*** ./src/components/Thumb.tsx ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Thumb.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Thumb = ({
+  title
+}) => {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, title);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Thumb);
 
 /***/ }),
 
@@ -268,32 +299,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.tsx");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.tsx");
+/* harmony import */ var _components_Thumb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Thumb */ "./src/components/Thumb.tsx");
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
- //import axios from "axios";
+
+
 
 
 
 class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  /*static async getInitialProps() {
-    const res = await axios.get(
-      "https://api.themoviedb.org/3/search/movie?api_key=5d77a3a4cf8ca6ff499952f4eda298d9&query=batman"
-    );
-    return res;
-  }*/
+  static async getInitialProps() {
+    const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default()("https://api.themoviedb.org/3/search/movie?api_key=5d77a3a4cf8ca6ff499952f4eda298d9&query=batman");
+    const data = await res.json();
+    console.log(`Show data fetched. Count: ${data.results.length}`);
+    return {
+      movies: data.results
+    };
+  }
+
   render() {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 33
       },
       __self: this
     }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 34
       },
       __self: this
     }, __jsx("meta", {
@@ -301,7 +339,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "width=device-width, initial-scale=1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 35
       },
       __self: this
     }), __jsx("meta", {
@@ -309,7 +347,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "#242424",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 36
       },
       __self: this
     }), __jsx("meta", {
@@ -317,7 +355,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "Web site created using create-react-app",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 37
       },
       __self: this
     }), __jsx("link", {
@@ -325,28 +363,30 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 41
       },
       __self: this
     }), __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 45
       },
       __self: this
-    }, "Batman movies")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    }, "Batman movies")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30
+        lineNumber: 47
       },
       __self: this
-    }, __jsx("p", {
+    }, this.props.movies.map(movie => __jsx(_components_Thumb__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      key: movie.id,
+      title: movie.title,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 49
       },
       __self: this
-    }, "Contenido")));
+    }))));
   }
 
 }
@@ -364,6 +404,17 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 module.exports = __webpack_require__(/*! /home/jdmiguel/Desktop/projects/batman_movies_app/src/pages/index.tsx */"./src/pages/index.tsx");
 
+
+/***/ }),
+
+/***/ "isomorphic-unfetch":
+/*!*************************************!*\
+  !*** external "isomorphic-unfetch" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("isomorphic-unfetch");
 
 /***/ }),
 

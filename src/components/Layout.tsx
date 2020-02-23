@@ -1,9 +1,11 @@
 import React, { Fragment } from "react";
 import Header from "./Header";
 
-interface ILayoutProps {}
+interface ILayoutProps {
+  children: React.ReactElement | Array<React.ReactElement>;
+}
 
-const Layout: React.FC<ILayoutProps> = ({ children }): React.ReactElement => (
+const Layout: React.FC<ILayoutProps> = ({ children }) => (
   <Fragment>
     <Header />
     {children}

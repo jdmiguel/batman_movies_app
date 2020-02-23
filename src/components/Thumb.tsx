@@ -1,9 +1,11 @@
 import React from "react";
 
-export interface IThumbProps {}
+interface IThumbProps {
+  title: string;
+}
 
-const Thumb: React.FC<IThumbProps> = (props): React.ReactElement => {
-  return <div></div>;
+const Thumb: React.FC<IThumbProps> = ({ title }) => {
+  return <div>{title}</div>;
 };
 
 export default Thumb;
