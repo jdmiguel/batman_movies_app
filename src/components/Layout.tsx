@@ -1,6 +1,12 @@
 import React, { Fragment } from "react";
 import Header from "./Header";
 
+import styled from "styled-components";
+
+const StyledDiv = styled.div`
+  padding: 3em;
+`;
+
 interface ILayoutProps {
   children: React.ReactElement | Array<React.ReactElement>;
 }
@@ -8,20 +14,7 @@ interface ILayoutProps {
 const Layout: React.FC<ILayoutProps> = ({ children }) => (
   <Fragment>
     <Header />
-    <div className="content">{children}</div>
-    <style jsx global>{`
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: "Open Sans";
-        font-size: 15px;
-        background: #c8c8c8;
-        overflow-x: hidden;
-      }
-      .content {
-        padding: 3em;
-      }
-    `}</style>
+    <StyledDiv>{children}</StyledDiv>
   </Fragment>
 );
 

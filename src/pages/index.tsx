@@ -8,6 +8,18 @@ import Thumb from "../components/Thumb";
 
 import { Row, Col } from "react-configurable-grid";
 
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville, serif";
+    font-size: 15px;
+    background: #d7d7d7;
+  }
+`;
+
 const imageSrcRootUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/";
 
 interface movie {
@@ -37,6 +49,7 @@ class Home extends Component<IHomeProps> {
   render() {
     return (
       <Fragment>
+        <GlobalStyle />
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="theme-color" content="#242424" />

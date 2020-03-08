@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1804,16 +1804,24 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/BatmanIcon.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
+const StyledSvg = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.svg`
+  width: 200px;
+  @media screen and (max-width: 576px) {
+    width: 150px;
+    height: 100px;
+    margin: 0.2em 0 0;
+  }
+`;
 
-const BatmanIcon = () => __jsx("svg", {
+const BatmanIcon = () => __jsx(StyledSvg, {
   version: "1.1",
   x: "0px",
   y: "0px",
@@ -1822,25 +1830,20 @@ const BatmanIcon = () => __jsx("svg", {
   viewBox: "0 0 500 174.916",
   enableBackground: "new 0 0 500 174.916",
   xmlSpace: "preserve",
-  className: "jsx-2066678117" + " " + "batman-icon",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
-}, __jsx("path", {
-  fill: "#242424",
-  d: "M248.468,174.916c-1.915-5.667-3.515-11.724-5.962-17.418c-10.153-23.618-27.615-39.536-51.804-48.085   c-11.679-4.129-23.78-6.415-36.054-7.867c-21.129-2.5-42.311-2.353-63.508-1.186c-2.986,0.165-5.968,0.4-8.951,0.595   c-0.086,0.005-0.178-0.075,0.08,0.042c0.92-4.648,2.185-9.169,2.661-13.771c1.824-17.65-3.413-32.929-15.986-45.583   c-4.757-4.788-10.066-8.889-15.708-12.565C43.827,22.944,34.448,16.7,23.913,12.634C16.437,9.75,8.755,7.393,1.165,4.805   C0.782,4.674,0.385,4.583,0,4.26c0.424-0.027,0.849-0.08,1.273-0.08C57.282,4.175,113.29,4.171,169.299,4.176   c3.369,0,4.583,1.035,5.345,4.518c1.418,6.479,3.269,12.801,6.479,18.658c1.854,3.382,4.398,5.948,8.068,7.36   c10.999,4.235,22.266,7.14,34.152,7.044c4.396-0.036,5.725-0.693,6.767-4.998c1.279-5.279,2.216-10.68,2.779-16.083   c0.701-6.723,0.873-13.502,1.298-20.675c2.359,9.094,4.632,17.849,6.947,26.768c4.857-1.288,9.524-1.309,14.444,0.006   c2.23-8.885,4.43-17.647,6.63-26.411c0.188,0.008,0.373,0.016,0.559,0.024c0,2.626-0.095,5.258,0.018,7.88   c0.372,8.653,0.758,17.323,2.88,25.765c2.195,8.733,3.792,7.944,9.991,7.65c10.982-0.521,21.555-3.114,31.846-6.933   c3.751-1.392,6.338-3.984,8.223-7.408c3.12-5.664,4.902-11.793,6.363-18.042c0.236-1.015,0.521-2.037,0.941-2.985   c0.577-1.299,1.678-1.979,3.104-2.074c0.68-0.045,1.363-0.066,2.045-0.066C384.765,4.17,441.35,4.171,497.936,4.171   c0.663,0,1.324,0,1.986,0c0.026,0.125,0.053,0.249,0.078,0.373c-2.499,0.854-4.979,1.769-7.5,2.554   c-12.588,3.919-24.977,8.346-36.624,14.603c-11.805,6.342-22.892,13.686-31.865,23.808c-8.679,9.789-13.592,21.102-13.37,34.36   c0.11,6.622,1.561,13,3.891,19.186c0.219,0.58,0.425,1.165,0.706,1.938c-1.384-0.072-2.581-0.111-3.771-0.203   c-17.551-1.363-35.123-1.661-52.698-0.717c-14.164,0.759-28.203,2.513-42.022,5.878c-17.867,4.353-33.839,12.047-46.55,25.723   c-10.893,11.723-17.495,25.636-21.188,41.063C248.805,173.587,248.587,174.437,248.468,174.916z",
-  className: "jsx-2066678117",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
-}), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "2066678117",
+}, __jsx("path", {
+  fill: "#242424",
+  d: "M248.468,174.916c-1.915-5.667-3.515-11.724-5.962-17.418c-10.153-23.618-27.615-39.536-51.804-48.085   c-11.679-4.129-23.78-6.415-36.054-7.867c-21.129-2.5-42.311-2.353-63.508-1.186c-2.986,0.165-5.968,0.4-8.951,0.595   c-0.086,0.005-0.178-0.075,0.08,0.042c0.92-4.648,2.185-9.169,2.661-13.771c1.824-17.65-3.413-32.929-15.986-45.583   c-4.757-4.788-10.066-8.889-15.708-12.565C43.827,22.944,34.448,16.7,23.913,12.634C16.437,9.75,8.755,7.393,1.165,4.805   C0.782,4.674,0.385,4.583,0,4.26c0.424-0.027,0.849-0.08,1.273-0.08C57.282,4.175,113.29,4.171,169.299,4.176   c3.369,0,4.583,1.035,5.345,4.518c1.418,6.479,3.269,12.801,6.479,18.658c1.854,3.382,4.398,5.948,8.068,7.36   c10.999,4.235,22.266,7.14,34.152,7.044c4.396-0.036,5.725-0.693,6.767-4.998c1.279-5.279,2.216-10.68,2.779-16.083   c0.701-6.723,0.873-13.502,1.298-20.675c2.359,9.094,4.632,17.849,6.947,26.768c4.857-1.288,9.524-1.309,14.444,0.006   c2.23-8.885,4.43-17.647,6.63-26.411c0.188,0.008,0.373,0.016,0.559,0.024c0,2.626-0.095,5.258,0.018,7.88   c0.372,8.653,0.758,17.323,2.88,25.765c2.195,8.733,3.792,7.944,9.991,7.65c10.982-0.521,21.555-3.114,31.846-6.933   c3.751-1.392,6.338-3.984,8.223-7.408c3.12-5.664,4.902-11.793,6.363-18.042c0.236-1.015,0.521-2.037,0.941-2.985   c0.577-1.299,1.678-1.979,3.104-2.074c0.68-0.045,1.363-0.066,2.045-0.066C384.765,4.17,441.35,4.171,497.936,4.171   c0.663,0,1.324,0,1.986,0c0.026,0.125,0.053,0.249,0.078,0.373c-2.499,0.854-4.979,1.769-7.5,2.554   c-12.588,3.919-24.977,8.346-36.624,14.603c-11.805,6.342-22.892,13.686-31.865,23.808c-8.679,9.789-13.592,21.102-13.37,34.36   c0.11,6.622,1.561,13,3.891,19.186c0.219,0.58,0.425,1.165,0.706,1.938c-1.384-0.072-2.581-0.111-3.771-0.203   c-17.551-1.363-35.123-1.661-52.698-0.717c-14.164,0.759-28.203,2.513-42.022,5.878c-17.867,4.353-33.839,12.047-46.55,25.723   c-10.893,11.723-17.495,25.636-21.188,41.063C248.805,173.587,248.587,174.437,248.468,174.916z",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
   __self: undefined
-}, ".batman-icon.jsx-2066678117{width:200px;}@media screen and (max-width:576px){.batman-icon.jsx-2066678117{width:150px;height:100px;margin:0.2em 0 0;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvQmF0bWFuSWNvbi50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBa0JnQixBQUdxQixBQUlFLFlBSGhCLEFBSWlCLGFBQ0ksaUJBQzNCIiwiZmlsZSI6Ii9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvQmF0bWFuSWNvbi50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEJhdG1hbkljb24gPSAoKSA9PiAoXG4gIDxzdmdcbiAgICBjbGFzc05hbWU9XCJiYXRtYW4taWNvblwiXG4gICAgdmVyc2lvbj1cIjEuMVwiXG4gICAgeD1cIjBweFwiXG4gICAgeT1cIjBweFwiXG4gICAgd2lkdGg9XCI1MDBweFwiXG4gICAgaGVpZ2h0PVwiMTc0LjkxNnB4XCJcbiAgICB2aWV3Qm94PVwiMCAwIDUwMCAxNzQuOTE2XCJcbiAgICBlbmFibGVCYWNrZ3JvdW5kPVwibmV3IDAgMCA1MDAgMTc0LjkxNlwiXG4gICAgeG1sU3BhY2U9XCJwcmVzZXJ2ZVwiXG4gID5cbiAgICA8cGF0aFxuICAgICAgZmlsbD1cIiMyNDI0MjRcIlxuICAgICAgZD1cIk0yNDguNDY4LDE3NC45MTZjLTEuOTE1LTUuNjY3LTMuNTE1LTExLjcyNC01Ljk2Mi0xNy40MThjLTEwLjE1My0yMy42MTgtMjcuNjE1LTM5LjUzNi01MS44MDQtNDguMDg1ICAgYy0xMS42NzktNC4xMjktMjMuNzgtNi40MTUtMzYuMDU0LTcuODY3Yy0yMS4xMjktMi41LTQyLjMxMS0yLjM1My02My41MDgtMS4xODZjLTIuOTg2LDAuMTY1LTUuOTY4LDAuNC04Ljk1MSwwLjU5NSAgIGMtMC4wODYsMC4wMDUtMC4xNzgtMC4wNzUsMC4wOCwwLjA0MmMwLjkyLTQuNjQ4LDIuMTg1LTkuMTY5LDIuNjYxLTEzLjc3MWMxLjgyNC0xNy42NS0zLjQxMy0zMi45MjktMTUuOTg2LTQ1LjU4MyAgIGMtNC43NTctNC43ODgtMTAuMDY2LTguODg5LTE1LjcwOC0xMi41NjVDNDMuODI3LDIyLjk0NCwzNC40NDgsMTYuNywyMy45MTMsMTIuNjM0QzE2LjQzNyw5Ljc1LDguNzU1LDcuMzkzLDEuMTY1LDQuODA1ICAgQzAuNzgyLDQuNjc0LDAuMzg1LDQuNTgzLDAsNC4yNmMwLjQyNC0wLjAyNywwLjg0OS0wLjA4LDEuMjczLTAuMDhDNTcuMjgyLDQuMTc1LDExMy4yOSw0LjE3MSwxNjkuMjk5LDQuMTc2ICAgYzMuMzY5LDAsNC41ODMsMS4wMzUsNS4zNDUsNC41MThjMS40MTgsNi40NzksMy4yNjksMTIuODAxLDYuNDc5LDE4LjY1OGMxLjg1NCwzLjM4Miw0LjM5OCw1Ljk0OCw4LjA2OCw3LjM2ICAgYzEwLjk5OSw0LjIzNSwyMi4yNjYsNy4xNCwzNC4xNTIsNy4wNDRjNC4zOTYtMC4wMzYsNS43MjUtMC42OTMsNi43NjctNC45OThjMS4yNzktNS4yNzksMi4yMTYtMTAuNjgsMi43NzktMTYuMDgzICAgYzAuNzAxLTYuNzIzLDAuODczLTEzLjUwMiwxLjI5OC0yMC42NzVjMi4zNTksOS4wOTQsNC42MzIsMTcuODQ5LDYuOTQ3LDI2Ljc2OGM0Ljg1Ny0xLjI4OCw5LjUyNC0xLjMwOSwxNC40NDQsMC4wMDYgICBjMi4yMy04Ljg4NSw0LjQzLTE3LjY0Nyw2LjYzLTI2LjQxMWMwLjE4OCwwLjAwOCwwLjM3MywwLjAxNiwwLjU1OSwwLjAyNGMwLDIuNjI2LTAuMDk1LDUuMjU4LDAuMDE4LDcuODggICBjMC4zNzIsOC42NTMsMC43NTgsMTcuMzIzLDIuODgsMjUuNzY1YzIuMTk1LDguNzMzLDMuNzkyLDcuOTQ0LDkuOTkxLDcuNjVjMTAuOTgyLTAuNTIxLDIxLjU1NS0zLjExNCwzMS44NDYtNi45MzMgICBjMy43NTEtMS4zOTIsNi4zMzgtMy45ODQsOC4yMjMtNy40MDhjMy4xMi01LjY2NCw0LjkwMi0xMS43OTMsNi4zNjMtMTguMDQyYzAuMjM2LTEuMDE1LDAuNTIxLTIuMDM3LDAuOTQxLTIuOTg1ICAgYzAuNTc3LTEuMjk5LDEuNjc4LTEuOTc5LDMuMTA0LTIuMDc0YzAuNjgtMC4wNDUsMS4zNjMtMC4wNjYsMi4wNDUtMC4wNjZDMzg0Ljc2NSw0LjE3LDQ0MS4zNSw0LjE3MSw0OTcuOTM2LDQuMTcxICAgYzAuNjYzLDAsMS4zMjQsMCwxLjk4NiwwYzAuMDI2LDAuMTI1LDAuMDUzLDAuMjQ5LDAuMDc4LDAuMzczYy0yLjQ5OSwwLjg1NC00Ljk3OSwxLjc2OS03LjUsMi41NTQgICBjLTEyLjU4OCwzLjkxOS0yNC45NzcsOC4zNDYtMzYuNjI0LDE0LjYwM2MtMTEuODA1LDYuMzQyLTIyLjg5MiwxMy42ODYtMzEuODY1LDIzLjgwOGMtOC42NzksOS43ODktMTMuNTkyLDIxLjEwMi0xMy4zNywzNC4zNiAgIGMwLjExLDYuNjIyLDEuNTYxLDEzLDMuODkxLDE5LjE4NmMwLjIxOSwwLjU4LDAuNDI1LDEuMTY1LDAuNzA2LDEuOTM4Yy0xLjM4NC0wLjA3Mi0yLjU4MS0wLjExMS0zLjc3MS0wLjIwMyAgIGMtMTcuNTUxLTEuMzYzLTM1LjEyMy0xLjY2MS01Mi42OTgtMC43MTdjLTE0LjE2NCwwLjc1OS0yOC4yMDMsMi41MTMtNDIuMDIyLDUuODc4Yy0xNy44NjcsNC4zNTMtMzMuODM5LDEyLjA0Ny00Ni41NSwyNS43MjMgICBjLTEwLjg5MywxMS43MjMtMTcuNDk1LDI1LjYzNi0yMS4xODgsNDEuMDYzQzI0OC44MDUsMTczLjU4NywyNDguNTg3LDE3NC40MzcsMjQ4LjQ2OCwxNzQuOTE2elwiXG4gICAgLz5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAuYmF0bWFuLWljb24ge1xuICAgICAgICB3aWR0aDogMjAwcHg7XG4gICAgICB9XG4gICAgICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA1NzZweCkge1xuICAgICAgICAuYmF0bWFuLWljb24ge1xuICAgICAgICAgIHdpZHRoOiAxNTBweDtcbiAgICAgICAgICBoZWlnaHQ6IDEwMHB4O1xuICAgICAgICAgIG1hcmdpbjogMC4yZW0gMCAwO1xufVxuICAgICAgICB9XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L3N2Zz5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEJhdG1hbkljb247XG4iXX0= */\n/*@ sourceURL=/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/BatmanIcon.tsx */"));
+}));
 
 /* harmony default export */ __webpack_exports__["default"] = (BatmanIcon);
 
@@ -1856,60 +1859,73 @@ const BatmanIcon = () => __jsx("svg", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Header", function() { return Header; });
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _BatmanIcon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BatmanIcon */ "./src/components/BatmanIcon.tsx");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _BatmanIcon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BatmanIcon */ "./src/components/BatmanIcon.tsx");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Header.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-const Header = () => __jsx(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
+const StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.header`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-transform: uppercase;
+    color: #242424;
+    font-size: 1.8em;
+    line-height: 0;
+    letter-spacing: 1px;
+    @media screen and (max-width: 576px) {
+      margin: 2em 0 0;
+      flex-direction: column;
+    }
+  }
+`;
+const Header = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 27
   },
   __self: undefined
-}, __jsx("header", {
-  className: "jsx-4155344005",
+}, __jsx(StyledHeader, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 28
   },
   __self: undefined
 }, __jsx("h1", {
-  className: "jsx-4155344005" + " " + "logo",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 29
   },
   __self: undefined
 }, __jsx("span", {
-  className: "jsx-4155344005",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 30
   },
   __self: undefined
-}, "Batman"), __jsx(_BatmanIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, "Batman"), __jsx(_BatmanIcon__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 31
   },
   __self: undefined
 }), __jsx("span", {
-  className: "jsx-4155344005",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 32
   },
   __self: undefined
-}, "Movies"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "4155344005",
-  __self: undefined
-}, "header.jsx-4155344005{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.logo.jsx-4155344005{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0;text-transform:uppercase;color:#242424;font-size:1.8em;line-height:0;-webkit-letter-spacing:1px;-moz-letter-spacing:1px;-ms-letter-spacing:1px;letter-spacing:1px;}@media screen and (max-width:576px){.logo.jsx-4155344005{margin:2em 0 0;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvSGVhZGVyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFZZ0IsQUFHc0IsQUFLQSxBQVlJLGVBQ08sMkRBakJELEFBS0EsbUJBYXZCLGdGQWpCbUIsQUFLQSw2RkFKckIsQUFLVyxTQUNnQix5QkFDWCxjQUNFLGdCQUNGLGNBQ0ssNkZBQ3JCIiwiZmlsZSI6Ii9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvSGVhZGVyLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBGcmFnbWVudCB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IEJhdG1hbkljb24gZnJvbSBcIi4vQmF0bWFuSWNvblwiO1xuXG5leHBvcnQgY29uc3QgSGVhZGVyOiBSZWFjdC5GQyA9ICgpID0+IChcbiAgPEZyYWdtZW50PlxuICAgIDxoZWFkZXI+XG4gICAgICA8aDEgY2xhc3NOYW1lPVwibG9nb1wiPlxuICAgICAgICA8c3Bhbj5CYXRtYW48L3NwYW4+XG4gICAgICAgIDxCYXRtYW5JY29uIC8+XG4gICAgICAgIDxzcGFuPk1vdmllczwvc3Bhbj5cbiAgICAgIDwvaDE+XG4gICAgPC9oZWFkZXI+XG4gICAgPHN0eWxlIGpzeD57YFxuICAgICAgaGVhZGVyIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICB9XG4gICAgICAubG9nbyB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG4gICAgICAgIGNvbG9yOiAjMjQyNDI0O1xuICAgICAgICBmb250LXNpemU6IDEuOGVtO1xuICAgICAgICBsaW5lLWhlaWdodDogMDtcbiAgICAgICAgbGV0dGVyLXNwYWNpbmc6IDFweDtcbiAgICAgIH1cbiAgICAgIEBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDU3NnB4KSB7XG4gICAgICAgIC5sb2dvIHtcbiAgICAgICAgICBtYXJnaW46IDJlbSAwIDA7XG4gICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9GcmFnbWVudD5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEhlYWRlcjtcbiJdfQ== */\n/*@ sourceURL=/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Header.tsx */"));
+}, "Movies"))));
 /* harmony default export */ __webpack_exports__["default"] = (Header);
 
 /***/ }),
@@ -1923,42 +1939,41 @@ const Header = () => __jsx(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./src/components/Header.tsx");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./src/components/Header.tsx");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Layout.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
+const StyledDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div`
+  padding: 3em;
+`;
 
 const Layout = ({
   children
-}) => __jsx(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
+}) => __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 15
   },
   __self: undefined
-}, __jsx(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 16
   },
   __self: undefined
-}), __jsx("div", {
-  className: "jsx-1559040219" + " " + "content",
+}), __jsx(StyledDiv, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 17
   },
   __self: undefined
-}, children), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "1559040219",
-  __self: undefined
-}, "body{margin:0;padding:0;font-family:\"Open Sans\";font-size:15px;background:#c8c8c8;overflow-x:hidden;}.content{padding:3em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvTGF5b3V0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFXdUIsQUFHa0IsQUFRRyxTQVBGLEdBUVosT0FQMEIsd0JBQ1QsZUFDSSxtQkFDRCxrQkFDcEIiLCJmaWxlIjoiL2hvbWUvamRtaWd1ZWwvRGVza3RvcC9wcm9qZWN0cy9iYXRtYW5fbW92aWVzX2FwcC9zcmMvY29tcG9uZW50cy9MYXlvdXQudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgSGVhZGVyIGZyb20gXCIuL0hlYWRlclwiO1xuXG5pbnRlcmZhY2UgSUxheW91dFByb3BzIHtcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0RWxlbWVudCB8IEFycmF5PFJlYWN0LlJlYWN0RWxlbWVudD47XG59XG5cbmNvbnN0IExheW91dDogUmVhY3QuRkM8SUxheW91dFByb3BzPiA9ICh7IGNoaWxkcmVuIH0pID0+IChcbiAgPEZyYWdtZW50PlxuICAgIDxIZWFkZXIgLz5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRlbnRcIj57Y2hpbGRyZW59PC9kaXY+XG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgIGJvZHkge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIHBhZGRpbmc6IDA7XG4gICAgICAgIGZvbnQtZmFtaWx5OiBcIk9wZW4gU2Fuc1wiO1xuICAgICAgICBmb250LXNpemU6IDE1cHg7XG4gICAgICAgIGJhY2tncm91bmQ6ICNjOGM4Yzg7XG4gICAgICAgIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgICAgIH1cbiAgICAgIC5jb250ZW50IHtcbiAgICAgICAgcGFkZGluZzogM2VtO1xuICAgICAgfVxuICAgIGB9PC9zdHlsZT5cbiAgPC9GcmFnbWVudD5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDtcbiJdfQ== */\n/*@ sourceURL=/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Layout.tsx */"));
+}, children));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -1973,63 +1988,104 @@ const Layout = ({
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Thumb.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
+const StyledDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 0;
+  background: #efefef;
+  margin-bottom: 2em;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 0.5em;
+
+  img {
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.55);
+    margin-bottom: 2em;
+    max-width: 90%;
+    @media screen and (max-width: 576px) {
+      width: 65%;
+    }
+  }
+
+  h2 {
+    color: #242424;
+    margin: 0 0 0.1em 0;
+    font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+    text-align: center;
+  }
+  a {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #727272;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    transition: all 0.35s linear;
+    font-weight: 600;
+
+    &:hover {
+      font-size: 1em;
+      color: #242424;
+      background: #e0e0e0;
+    }
+  }
+`;
 
 const Thumb = ({
   id,
   title,
   imageSrc
-}) => __jsx("div", {
-  className: "jsx-1440082919",
+}) => __jsx(StyledDiv, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 62
   },
   __self: undefined
 }, __jsx("img", {
   src: imageSrc,
-  className: "jsx-1440082919",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 63
   },
   __self: undefined
 }), __jsx("h2", {
-  className: "jsx-1440082919",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 64
   },
   __self: undefined
-}, title), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+}, title), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/detail/[id]",
   as: `/detail/${id}`,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 65
   },
   __self: undefined
 }, __jsx("a", {
-  className: "jsx-1440082919",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 66
   },
   __self: undefined
-}, "Show detail")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "1440082919",
-  __self: undefined
-}, "div.jsx-1440082919{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:2em 0;background:#efefef;margin-bottom:2em;box-shadow:0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);border-radius:0.5em;}img.jsx-1440082919{box-shadow:1px 1px 7px 0px rgba(0,0,0,0.55);margin-bottom:2em;max-width:90%;}@media screen and (max-width:576px){img.jsx-1440082919{width:65%;}}h2.jsx-1440082919{color:#242424;margin:0 0 0.1em 0;font-size:1.5em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:90%;text-align:center;}a.jsx-1440082919{font-size:1em;text-transform:uppercase;color:#727272;-webkit-text-decoration:none;text-decoration:none;padding:0.5em;border-radius:0.2em;-webkit-transition:all 0.35s linear;transition:all 0.35s linear;font-weight:600;}a.jsx-1440082919:hover{font-size:1em;color:#242424;background:#e0e0e0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvVGh1bWIudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCZ0IsQUFHc0IsQUFha0MsQUFNbkMsQUFJRSxBQVVBLEFBVUEsVUF2QmQsSUFJbUIsQUFVTSxBQVVYLGNBQ0ssS0FwQkgsTUFVRixLQXJCSSxHQWdDcEIsRUFwQnFCLElBVUUsU0FyQlAsTUFZRSxNQTFCTyxFQWV6QixRQVl5QixtQkFTVCxJQVJBLFVBU00sSUFSRixnQkFTVSxFQVI5QixrQ0E3QnFCLDRCQXNDSCxnQkFDbEIsaURBdEN3Qiw4RUFDUixjQUNLLG1CQUNELGtCQUdtQixnSEFDakIsb0JBQ3RCIiwiZmlsZSI6Ii9ob21lL2pkbWlndWVsL0Rlc2t0b3AvcHJvamVjdHMvYmF0bWFuX21vdmllc19hcHAvc3JjL2NvbXBvbmVudHMvVGh1bWIudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuXG5pbnRlcmZhY2UgSVRodW1iUHJvcHMge1xuICBpZDogbnVtYmVyO1xuICB0aXRsZTogc3RyaW5nO1xuICBpbWFnZVNyYzogc3RyaW5nO1xufVxuXG5jb25zdCBUaHVtYjogUmVhY3QuRkM8SVRodW1iUHJvcHM+ID0gKHsgaWQsIHRpdGxlLCBpbWFnZVNyYyB9KSA9PiAoXG4gIDxkaXY+XG4gICAgPGltZyBzcmM9e2ltYWdlU3JjfSAvPlxuICAgIDxoMj57dGl0bGV9PC9oMj5cbiAgICA8TGluayBocmVmPVwiL2RldGFpbC9baWRdXCIgYXM9e2AvZGV0YWlsLyR7aWR9YH0+XG4gICAgICA8YT5TaG93IGRldGFpbDwvYT5cbiAgICA8L0xpbms+XG4gICAgPHN0eWxlIGpzeD57YFxuICAgICAgZGl2IHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgIHBhZGRpbmc6IDJlbSAwO1xuICAgICAgICBiYWNrZ3JvdW5kOiAjZWZlZmVmO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAyZW07XG4gICAgICAgIGJveC1zaGFkb3c6IDBweCAycHggMXB4IC0xcHggcmdiYSgwLCAwLCAwLCAwLjIpLFxuICAgICAgICAgIDBweCAxcHggMXB4IDBweCByZ2JhKDAsIDAsIDAsIDAuMTQpLFxuICAgICAgICAgIDBweCAxcHggM3B4IDBweCByZ2JhKDAsIDAsIDAsIDAuMTIpO1xuICAgICAgICBib3JkZXItcmFkaXVzOiAwLjVlbTtcbiAgICAgIH1cbiAgICAgIGltZyB7XG4gICAgICAgIGJveC1zaGFkb3c6IDFweCAxcHggN3B4IDBweCByZ2JhKDAsIDAsIDAsIDAuNTUpO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAyZW07XG4gICAgICAgIG1heC13aWR0aDogOTAlO1xuICAgICAgfVxuICAgICAgQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNTc2cHgpIHtcbiAgICAgICAgaW1nIHtcbiAgICAgICAgICB3aWR0aDogNjUlO1xuICAgICAgICB9XG4gICAgICB9XG4gICAgICBoMiB7XG4gICAgICAgIGNvbG9yOiAjMjQyNDI0O1xuICAgICAgICBtYXJnaW46IDAgMCAwLjFlbSAwO1xuICAgICAgICBmb250LXNpemU6IDEuNWVtO1xuICAgICAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xuICAgICAgICBvdmVyZmxvdzogaGlkZGVuO1xuICAgICAgICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcbiAgICAgICAgbWF4LXdpZHRoOiA5MCU7XG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgIH1cbiAgICAgIGEge1xuICAgICAgICBmb250LXNpemU6IDFlbTtcbiAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICAgICAgY29sb3I6ICM3MjcyNzI7XG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgcGFkZGluZzogMC41ZW07XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDAuMmVtO1xuICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4zNXMgbGluZWFyO1xuICAgICAgICBmb250LXdlaWdodDogNjAwO1xuICAgICAgfVxuICAgICAgYTpob3ZlciB7XG4gICAgICAgIGZvbnQtc2l6ZTogMWVtO1xuICAgICAgICBjb2xvcjogIzI0MjQyNDtcbiAgICAgICAgYmFja2dyb3VuZDogI2UwZTBlMDtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgVGh1bWI7XG4iXX0= */\n/*@ sourceURL=/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Thumb.tsx */"));
+}, "Show detail")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Thumb);
 
@@ -2054,6 +2110,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Thumb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Thumb */ "./src/components/Thumb.tsx");
 /* harmony import */ var react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-configurable-grid */ "react-configurable-grid");
 /* harmony import */ var react_configurable_grid__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2062,6 +2120,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
+const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_6__["createGlobalStyle"]`
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville, serif";
+    font-size: 15px;
+    background: #d7d7d7;
+  }
+`;
 const imageSrcRootUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/";
 
 class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
@@ -2079,13 +2147,19 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
+        lineNumber: 51
       },
       __self: this
-    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, __jsx(GlobalStyle, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 52
+      },
+      __self: this
+    }), __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53
       },
       __self: this
     }, __jsx("meta", {
@@ -2093,7 +2167,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "width=device-width, initial-scale=1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 54
       },
       __self: this
     }), __jsx("meta", {
@@ -2101,7 +2175,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "#242424",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 55
       },
       __self: this
     }), __jsx("meta", {
@@ -2109,7 +2183,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "Web site created using create-react-app",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43
+        lineNumber: 56
       },
       __self: this
     }), __jsx("link", {
@@ -2117,25 +2191,25 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 60
       },
       __self: this
     }), ">", __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 64
       },
       __self: this
     }, "Batman movies")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 66
       },
       __self: this
     }, __jsx(react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__["Row"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 67
       },
       __self: this
     }, this.props.movies.map(movie => __jsx(react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__["Col"], {
@@ -2146,7 +2220,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       key: movie.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 69
       },
       __self: this
     }, __jsx(_components_Thumb__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -2155,7 +2229,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       imageSrc: `${imageSrcRootUrl}${movie.poster_path}`,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 70
       },
       __self: this
     }))))));
@@ -2167,7 +2241,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!***********************************!*\
   !*** multi ./src/pages/index.tsx ***!
   \***********************************/
@@ -2311,14 +2385,14 @@ module.exports = require("react-is");
 
 /***/ }),
 
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("styled-jsx/style");
+module.exports = require("styled-components");
 
 /***/ }),
 
