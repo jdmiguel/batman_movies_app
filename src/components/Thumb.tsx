@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-
 import styled from "styled-components";
 
 interface IThumbProps {
@@ -31,7 +30,6 @@ const StyledDiv = styled.div`
   }
 
   h2 {
-    color: #242424;
     margin: 0 0 0.1em 0;
     font-size: 1.5em;
     white-space: nowrap;
@@ -51,7 +49,6 @@ const StyledDiv = styled.div`
     font-weight: 600;
 
     &:hover {
-      font-size: 1em;
       color: #242424;
       background: #e0e0e0;
     }

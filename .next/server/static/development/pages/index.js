@@ -1832,7 +1832,7 @@ const BatmanIcon = () => __jsx(StyledSvg, {
   xmlSpace: "preserve",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 14
   },
   __self: undefined
 }, __jsx("path", {
@@ -1840,7 +1840,7 @@ const BatmanIcon = () => __jsx(StyledSvg, {
   d: "M248.468,174.916c-1.915-5.667-3.515-11.724-5.962-17.418c-10.153-23.618-27.615-39.536-51.804-48.085   c-11.679-4.129-23.78-6.415-36.054-7.867c-21.129-2.5-42.311-2.353-63.508-1.186c-2.986,0.165-5.968,0.4-8.951,0.595   c-0.086,0.005-0.178-0.075,0.08,0.042c0.92-4.648,2.185-9.169,2.661-13.771c1.824-17.65-3.413-32.929-15.986-45.583   c-4.757-4.788-10.066-8.889-15.708-12.565C43.827,22.944,34.448,16.7,23.913,12.634C16.437,9.75,8.755,7.393,1.165,4.805   C0.782,4.674,0.385,4.583,0,4.26c0.424-0.027,0.849-0.08,1.273-0.08C57.282,4.175,113.29,4.171,169.299,4.176   c3.369,0,4.583,1.035,5.345,4.518c1.418,6.479,3.269,12.801,6.479,18.658c1.854,3.382,4.398,5.948,8.068,7.36   c10.999,4.235,22.266,7.14,34.152,7.044c4.396-0.036,5.725-0.693,6.767-4.998c1.279-5.279,2.216-10.68,2.779-16.083   c0.701-6.723,0.873-13.502,1.298-20.675c2.359,9.094,4.632,17.849,6.947,26.768c4.857-1.288,9.524-1.309,14.444,0.006   c2.23-8.885,4.43-17.647,6.63-26.411c0.188,0.008,0.373,0.016,0.559,0.024c0,2.626-0.095,5.258,0.018,7.88   c0.372,8.653,0.758,17.323,2.88,25.765c2.195,8.733,3.792,7.944,9.991,7.65c10.982-0.521,21.555-3.114,31.846-6.933   c3.751-1.392,6.338-3.984,8.223-7.408c3.12-5.664,4.902-11.793,6.363-18.042c0.236-1.015,0.521-2.037,0.941-2.985   c0.577-1.299,1.678-1.979,3.104-2.074c0.68-0.045,1.363-0.066,2.045-0.066C384.765,4.17,441.35,4.171,497.936,4.171   c0.663,0,1.324,0,1.986,0c0.026,0.125,0.053,0.249,0.078,0.373c-2.499,0.854-4.979,1.769-7.5,2.554   c-12.588,3.919-24.977,8.346-36.624,14.603c-11.805,6.342-22.892,13.686-31.865,23.808c-8.679,9.789-13.592,21.102-13.37,34.36   c0.11,6.622,1.561,13,3.891,19.186c0.219,0.58,0.425,1.165,0.706,1.938c-1.384-0.072-2.581-0.111-3.771-0.203   c-17.551-1.363-35.123-1.661-52.698-0.717c-14.164,0.759-28.203,2.513-42.022,5.878c-17.867,4.353-33.839,12.047-46.55,25.723   c-10.893,11.723-17.495,25.636-21.188,41.063C248.805,173.587,248.587,174.437,248.468,174.916z",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 24
   },
   __self: undefined
 }));
@@ -1861,15 +1861,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Header", function() { return Header; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _BatmanIcon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BatmanIcon */ "./src/components/BatmanIcon.tsx");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _BatmanIcon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BatmanIcon */ "./src/components/BatmanIcon.tsx");
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/components/Header.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.header`
+const StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.header`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1879,7 +1879,6 @@ const StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.he
     align-items: center;
     margin: 0;
     text-transform: uppercase;
-    color: #242424;
     font-size: 1.8em;
     line-height: 0;
     letter-spacing: 1px;
@@ -1889,40 +1888,40 @@ const StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.he
     }
   }
 `;
-const Header = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+const Header = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27
+    lineNumber: 26
   },
   __self: undefined
 }, __jsx(StyledHeader, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
+    lineNumber: 27
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 28
   },
   __self: undefined
 }, __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 30
+    lineNumber: 29
   },
   __self: undefined
-}, "Batman"), __jsx(_BatmanIcon__WEBPACK_IMPORTED_MODULE_1__["default"], {
+}, "Batman"), __jsx(_BatmanIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
+    lineNumber: 30
   },
   __self: undefined
 }), __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
+    lineNumber: 31
   },
   __self: undefined
 }, "Movies"))));
@@ -1934,11 +1933,12 @@ const Header = () => __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
 /*!***********************************!*\
   !*** ./src/components/Layout.tsx ***!
   \***********************************/
-/*! exports provided: default */
+/*! exports provided: GlobalStyle, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GlobalStyle", function() { return GlobalStyle; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./src/components/Header.tsx");
@@ -1949,28 +1949,44 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["createGlobalStyle"]`
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Baskerville, serif";
+    font-size: 15px;
+    color: #242424;
+    background: #d7d7d7;
+  }
+`;
 const StyledDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div`
   padding: 3em;
 `;
 
 const Layout = ({
   children
-}) => __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+}) => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 25
   },
   __self: undefined
-}, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+}, __jsx(GlobalStyle, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 26
+  },
+  __self: undefined
+}), __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
   },
   __self: undefined
 }), __jsx(StyledDiv, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 28
   },
   __self: undefined
 }, children));
@@ -2021,7 +2037,6 @@ const StyledDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div`
   }
 
   h2 {
-    color: #242424;
     margin: 0 0 0.1em 0;
     font-size: 1.5em;
     white-space: nowrap;
@@ -2041,7 +2056,6 @@ const StyledDiv = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div`
     font-weight: 600;
 
     &:hover {
-      font-size: 1em;
       color: #242424;
       background: #e0e0e0;
     }
@@ -2055,20 +2069,20 @@ const Thumb = ({
 }) => __jsx(StyledDiv, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 62
+    lineNumber: 59
   },
   __self: undefined
 }, __jsx("img", {
   src: imageSrc,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 63
+    lineNumber: 60
   },
   __self: undefined
 }), __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 64
+    lineNumber: 61
   },
   __self: undefined
 }, title), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -2076,13 +2090,13 @@ const Thumb = ({
   as: `/detail/${id}`,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 65
+    lineNumber: 62
   },
   __self: undefined
 }, __jsx("a", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 66
+    lineNumber: 63
   },
   __self: undefined
 }, "Show detail")));
@@ -2106,12 +2120,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.tsx");
-/* harmony import */ var _components_Thumb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Thumb */ "./src/components/Thumb.tsx");
-/* harmony import */ var react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-configurable-grid */ "react-configurable-grid");
-/* harmony import */ var react_configurable_grid__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_configurable_grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-configurable-grid */ "react-configurable-grid");
+/* harmony import */ var react_configurable_grid__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_configurable_grid__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _utils_commons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/commons */ "./src/utils/commons.tsx");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.tsx");
+/* harmony import */ var _components_Thumb__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Thumb */ "./src/components/Thumb.tsx");
 var _jsxFileName = "/home/jdmiguel/Desktop/projects/batman_movies_app/src/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2121,21 +2134,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_6__["createGlobalStyle"]`
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "Libre Baskerville, serif";
-    font-size: 15px;
-    background: #d7d7d7;
-  }
-`;
-const imageSrcRootUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/";
 
-class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+class Home extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   static async getInitialProps() {
+    // Getting data from service
     const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default()("https://api.themoviedb.org/3/search/movie?api_key=5d77a3a4cf8ca6ff499952f4eda298d9&query=batman&page=1");
-    const data = await res.json(); //console.log(`Show data fetched. Count: ${data.results.length}`);
+    const data = await res.json(); // Settting values as props
 
     return {
       page: 1,
@@ -2144,22 +2148,16 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 35
       },
       __self: this
-    }, __jsx(GlobalStyle, {
+    }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
-      },
-      __self: this
-    }), __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 36
       },
       __self: this
     }, __jsx("meta", {
@@ -2167,7 +2165,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "width=device-width, initial-scale=1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 37
       },
       __self: this
     }), __jsx("meta", {
@@ -2175,7 +2173,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "#242424",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 38
       },
       __self: this
     }), __jsx("meta", {
@@ -2183,7 +2181,7 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       content: "Web site created using create-react-app",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 39
       },
       __self: this
     }), __jsx("link", {
@@ -2191,28 +2189,28 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 43
       },
       __self: this
     }), ">", __jsx("title", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64
+        lineNumber: 47
       },
       __self: this
-    }, "Batman movies")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    }, "Batman movies")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 49
       },
       __self: this
-    }, __jsx(react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__["Row"], {
+    }, __jsx(react_configurable_grid__WEBPACK_IMPORTED_MODULE_3__["Row"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 50
       },
       __self: this
-    }, this.props.movies.map(movie => __jsx(react_configurable_grid__WEBPACK_IMPORTED_MODULE_5__["Col"], {
+    }, this.props.movies.map(movie => __jsx(react_configurable_grid__WEBPACK_IMPORTED_MODULE_3__["Col"], {
       xs: 12,
       sm: 4,
       md: 3,
@@ -2220,16 +2218,16 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       key: movie.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 52
       },
       __self: this
-    }, __jsx(_components_Thumb__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    }, __jsx(_components_Thumb__WEBPACK_IMPORTED_MODULE_6__["default"], {
       id: movie.id,
       title: movie.title,
-      imageSrc: `${imageSrcRootUrl}${movie.poster_path}`,
+      imageSrc: `${_utils_commons__WEBPACK_IMPORTED_MODULE_4__["imageSrcRootUrl"]}${movie.poster_path}`,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 53
       },
       __self: this
     }))))));
@@ -2238,6 +2236,20 @@ class Home extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./src/utils/commons.tsx":
+/*!*******************************!*\
+  !*** ./src/utils/commons.tsx ***!
+  \*******************************/
+/*! exports provided: imageSrcRootUrl */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "imageSrcRootUrl", function() { return imageSrcRootUrl; });
+const imageSrcRootUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/";
 
 /***/ }),
 

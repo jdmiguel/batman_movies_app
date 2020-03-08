@@ -1,5 +1,4 @@
 import React from "react";
-
 import styled from "styled-components";
 
 const StyledSvg = styled.svg`
@@ -11,7 +10,7 @@ const StyledSvg = styled.svg`
   }
 `;
 
-const BatmanIcon = () => (
+const BatmanIcon: React.FC = () => (
   <StyledSvg
     version="1.1"
     x="0px"

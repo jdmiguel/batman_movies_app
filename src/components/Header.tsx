@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
-import BatmanIcon from "./BatmanIcon";
+import React from "react";
 import styled from "styled-components";
+import BatmanIcon from "./BatmanIcon";
 
 const StyledHeader = styled.header`
   display: flex;
@@ -12,7 +12,6 @@ const StyledHeader = styled.header`
     align-items: center;
     margin: 0;
     text-transform: uppercase;
-    color: #242424;
     font-size: 1.8em;
     line-height: 0;
     letter-spacing: 1px;
@@ -24,7 +23,7 @@ const StyledHeader = styled.header`
 `;
 
 export const Header: React.FC = () => (
-  <Fragment>
+  <React.Fragment>
     <StyledHeader>
       <h1>
         <span>Batman</span>
@@ -32,7 +31,7 @@ export const Header: React.FC = () => (
         <span>Movies</span>
       </h1>
     </StyledHeader>
-  </Fragment>
+  </React.Fragment>
 );
 
 export default Header;
